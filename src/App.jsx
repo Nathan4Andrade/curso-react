@@ -17,9 +17,9 @@ export default () => (
     <div className="Cards">
       <Card titulo="005 - Componente com filhos">
         <Familia sobrenome="Andrade">
-          <FamiliaMembro nome="Nathan"></FamiliaMembro>
-          <FamiliaMembro nome="Rosemary"></FamiliaMembro>
-          <FamiliaMembro nome="Nicolas"></FamiliaMembro>
+          <FamiliaMembro nome="Nathan" />
+          <FamiliaMembro nome="Rosemary" />
+          <FamiliaMembro nome="Nicolas" />
         </Familia>
       </Card>
       <Card titulo="004 - Desafio Aleatório" color="#d69cbc">
