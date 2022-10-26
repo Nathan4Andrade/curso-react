@@ -13,7 +13,7 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <div className="App">
-    <h1>Fundamentos React (Arrow)</h1>
+    <h1>Fundamentos React</h1>
     <div className="Cards">
       <Card titulo="005 - Componente com filhos">
         <Familia sobrenome="Andrade">
