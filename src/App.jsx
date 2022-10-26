@@ -11,12 +11,24 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="010 - Comunicação Inireta" color="">
+        <IndiretaPai></IndiretaPai>
+      </Card>
+      <Card titulo="009 - Comunicação Direta" color=""></Card>
+      <Card titulo="008 - Condicional" color="">
+        <ParOuImpar numero={20}></ParOuImpar>
+        <UsuarioInfo usuario={{ nome: "Nathan" }} />
+        <UsuarioInfo usuario={{ email: "nathan@gmail" }} />
+      </Card>
       <Card titulo="007 - Desafio Repetição" color="">
         <TabelaProdutos></TabelaProdutos>
       </Card>

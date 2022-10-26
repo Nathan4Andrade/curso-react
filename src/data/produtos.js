@@ -5,4 +5,5 @@ export default [
   { id: 3, nome: "Batata", valor: 3.59 },
   { id: 4, nome: "Tomate", valor: 4.49 },
   { id: 5, nome: "Uva", valor: 2.25 },
+  { id: 6, nome: "Chocolate", valor: 3.0 },
 ];
