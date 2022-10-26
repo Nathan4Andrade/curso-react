@@ -9,12 +9,20 @@ import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layouts/Card";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="007 - Desafio Repetição" color="">
+        <TabelaProdutos></TabelaProdutos>
+      </Card>
+      <Card titulo="006 - Repetição" color="#d69cbc">
+        <ListaAlunos></ListaAlunos>
+      </Card>
       <Card titulo="005 - Componente com filhos" color="#d69cbc">
         <Familia sobrenome="Andrade">
           <FamiliaMembro nome="Nathan" />

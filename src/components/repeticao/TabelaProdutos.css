@@ -1,0 +1,20 @@
+.TabelaProdutos th,
+.TabelaProdutos td,
+.TabelaProdutos table {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.TabelaProdutos table {
+  width: 100%;
+}
+
+.TabelaProdutos th {
+  background-color: #8f83d8;
+}
+
+.TabelaProdutos tr:nth-child(even) {
+  background-color: #d8d8d8;
+}
