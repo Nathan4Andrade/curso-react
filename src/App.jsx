@@ -15,7 +15,7 @@ export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
-      <Card titulo="005 - Componente com filhos">
+      <Card titulo="005 - Componente com filhos" color="#d69cbc">
         <Familia sobrenome="Andrade">
           <FamiliaMembro nome="Nathan" />
           <FamiliaMembro nome="Rosemary" />
