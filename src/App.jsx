@@ -14,12 +14,16 @@ import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/Input";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="011 - Componente controlado" color="">
+        <Input></Input>
+      </Card>
       <Card titulo="010 - Comunicação Inireta" color="">
         <IndiretaPai></IndiretaPai>
       </Card>
