@@ -16,12 +16,16 @@ import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="013 - Mega" color="">
+        <Mega qtde={8} />
+      </Card>
       <Card titulo="012 - Contador" color="">
         <Contador numeroInicial={10}></Contador>
       </Card>
